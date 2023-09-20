@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    --oscuro: #353A40;
+    --letras: #f0f0f0;
+    --letrasenoff: #5f6368;
+    --verde: #2A9343;
+    --btn-enviar: #96C93E;
+    --footer: #1D3644;
+    --foterfin: #1E5371;
+
+}
+
+/*==========        Vista para Pc       =========*/
+
+
+/*****   HEAD   ********/
+.navbar {
+    width: 100%;
+    height: 6em;
+    color: var(--letras);
+    background-color: var(--oscuro);
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-content: space-around;
+}
+
+.imgagenytexto {
+    width: 35%;
+    height: 100%;
+}
+
+.img-codoAcodo {
+    width: 8rem;
+
+}
+
+.confbsas {
+    color: #f0f0f0;
+    text-align: start;
+}
+
+.listas {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-content: center;
+    gap: 1em;
+    font-weight: 500;
+}
+
+A:link,
+:hover,
+:visited {
+    text-decoration: none;
+    outline: none
+}
+
+.conferencia {
+    color: var(--letras) !important;
+}
+
+.letrasoff {
+    color: var(--letrasenoff) !important;
+}
+
+.letrasVerde {
+    color: var(--verde) !important;
+}
+
+
+/*============ HEADER =============*/
+.contenedor {
+    width: 100%;
+    height: 50vh;
+
+}
+
+.imagen-header {
+    position: relative;
+    display: inline-block;
+    filter: brightness(45%);
+
+}
+
+.contenedor-texto {
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    color: var(--letras);
+
+}
+
+.botones-header {
+    position: absolute;
+    top: 100%;
+    left: 65%;
+    margin-top: 2em;
+    display: flex;
+    gap: .5em;
+}
+
+.btn-header-1 {
+    color: var(--letras);
+}
+
+header {
+    margin-bottom: 30em;
+}
+
+/*==================    Parte del medio ==================*/
+.card {
+    width: 18rem;
+}
+
+.container-imgx3 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: space-around;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+
+.btn-cursos {
+    font-size: 12px;
+    font-weight: bold;
+    width: auto;
+    height: 2.3em;
+    color: var(--letras);
+
+}
+
+.btn-java {
+    color: black;
+}
+
+.textos-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.texto {
+    color: var(--letrasenoff);
+    margin-top: -2em;
+    text-align: center;
+}
+
+.h4texto {
+    font-size: xx-large;
+    text-align: center;
+}
+
+/* ================== Imagen de bs con la descripcion ================== */
+.contenedor-imagen-bsas {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 3em;
+    gap: 1px;
+}
+
+.img1 {
+    width: 49%;
+}
+
+.contenedor-textos-bsas {
+    width: 50%;
+    background-color: var(--oscuro);
+    color: var(--letras);
+    padding: 1em;
+}
+
+/*==========================FORMULARIO DE LA CHARLA ============================ */
+.formulario {
+    width: 50%;
+    margin: auto;
+
+}
+
+.formulario-flex {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 1em;
+    margin-top: .6em;
+
+}
+
+.datos-nombre {
+    width: 48%;
+}
+
+.datos-apellido {
+    width: 48%;
+
+}
+
+.datos-tema {
+    width: 100%;
+    height: 6em;
+    align-content: start;
+    text-align: start;
+
+}
+
+.span-formulario {
+    font-size: small;
+    color: var(--letrasenoff);
+    text-align: start;
+    width: 100%;
+    margin-top: -1em;
+}
+
+.btn-enviar {
+    color: var(--letras);
+    font-size: larger;
+    font-weight: 600;
+    background-color: var(--btn-enviar);
+    width: 100%;
+}
+
+
+/*===============   FOOTER    ================*/
+footer {
+    background-color: var(--footer);
+}
+
+.contenedor-footer {
+    width: 100%;
+    height: 6em;
+    color: var(--letras);
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 2em;
+
+}
+
+.a1 {
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+
+

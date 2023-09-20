@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link del CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Link, por las dudas, js,-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--Link del CSS local-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Titulo-->
+    <title>TP 1</title>
+</head>
+
+<body>
+    <nav class="navbar ">
+        <div class="container ">
+            <div class="imgagenytexto">
+                <img src="./img/codoacodo.png" alt="logo codo a codo" class="img-fluid img-codoAcodo">
+                <span class="confbsas">Conf BS As</span>
+            </div>
+            <ul class="listas">
+                <li class="conferencia"> <a href="#" class="conferencia">La conferencia</a> </li>
+                <li class="letrasoff"> <a href="#" class="letrasoff"> Los oradores</a></li>
+                <li class="letrasoff"> <a href="#" class="letrasoff">EL lugar</a> </li>
+                <li class="letrasoff"> <a href="#" class="letrasoff">Conviertete en orador</a> </li>
+                <li class="letrasVerde"> <a href="#" class="letrasVerde">Comprar tickes</a> </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="contenedor">
+            <img src="./img/ba1.jpg" alt="Foto de casona bs as" class="imagen-header img-fluid">
+            <!-- Texto con posicion z-index sobre la img -->
+            <div class="contenedor-texto">
+                <h3 class="h3-contenedor-texto">Conf Bs As</h3>
+                <span class="span-contenedor-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit,
+                    dignissimos? Ad culpa praesentium recusandae vitae, autem iusto sunt? Quam error, quia recusandae
+                    iste sit minus facere! Nulla labore distinctio temporibus.</span>
+            </div>
+            <div class="botones-header">
+                <button class="btn  btn-header btn-header-1 btn-outline-secondary">Quiero ser orador</button>
+                <button class="btn btn-header btn-success">Comprar tickes</button>
+            </div>
+            <!-- Un boton verde -->
+        </div>
+    </header>
+
+    <div class="capsula">
+        <div class="textos-img">
+
+            <span class="texto">CONOCE A LOS</span>
+            <h4 class="h4texto">ORADORES</h4>
+        </div>
+        <div class="container container-imgx3">
+            <!--    1   -->
+            <div class="card">
+                <img src="./img/steve.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="#" class="btn btn-warning btn-cursos btn-java">JavaScript</a>
+                    <a href="#" class="btn btn-info btn-cursos ">React</a>
+                    <h5 class="card-title">Stive Jobs</h5>
+                    <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y
+                        componer
+                        la mayor parte del contenido de la tarjeta.</p>
+
+                </div>
+            </div>
+
+            <!--    2   -->
+            <div class="card">
+                <img src="./img/bill.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="#" class="btn btn-warning btn-cursos btn-java">JavaScript</a>
+                    <a href="#" class="btn btn-info btn-cursos">React</a>
+
+                    <h5 class="card-title">Bill Gate</h5>
+                    <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y
+                        componer
+                        la mayor parte del contenido de la tarjeta.</p>
+
+                </div>
+            </div>
+
+
+            <!--  3   -->
+            <div class="card">
+                <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="#" class="btn btn-secondary btn-cursos">Negocios</a>
+                    <a href="#" class="btn btn-danger btn-cursos">Startups</a>
+                    <h5 class="card-title">Ada Lovelace</h5>
+                    <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y
+                        componer
+                        la mayor parte del contenido de la tarjeta.</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contenedor-imagen-bsas">
+        <div class="img1">
+            <img src="./img/honolulu.jpg" class="contenedor-imagen-bsas-img img-fluid" alt="">
+        </div>
+        <div class="contenedor-textos-bsas">
+            <h3 class="h3-contenedor-bsas">Bs As - Octubre</h3>
+            <p class="p-contenedor-bsas">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias eius labore
+                eveniet adipisci, eaque sequi nesciunt officiis culpa vel perferendis, cum eligendi assumenda ut
+                architecto nam! Dolorem odio consequatur ratione ab possimus assumenda neque harum.</p>
+            <div class="btn btn-header-1 btn-outline-secondary">Conocé más</div>
+        </div>
+    </div>
+
+
+    <div class="textos-img">
+
+        <span class="texto">CONVÍERTETE EN UN</span>
+        <h4 class="h4texto">ORADOR</h4>
+        <span>Anotaté como orador para dar una charla ignite. Cuentanos de que quieres hablar </span>
+    </div>
+
+    <div class="formulario ">
+        <form action="" class="formulario-flex">
+            <input type="text" class="formulario-datos datos-nombre " placeholder="Nombre">
+            <input type="text" class="formulario-datos datos-apellido " placeholder="Apellido">
+            <textarea name="tea" id="" cols="30" rows="10" class="formulario-datos datos-tema "
+                placeholder="¿De que quieres hablar?"></textarea>
+            <span class="span-formulario">Recuerda incluir un titulo para tu charla</span>
+
+            <button class="btn  col-10 btn-enviar" type="submit">Enviar</button>
+        </form>
+
+    </div>
+
+    <footer>
+        <div class="container contenedor-footer">
+            <div class="contenido1 a1">Preguntas Frecuentes</div>
+            <div class="contenido2 a1">Contactanos</div>
+            <div class="contenido3 a1">Prensa</div>
+            <div class="contenido4 a1">Conferencias</div>
+            <div class="contenido5 a1">Terminos y condiciones</div>
+            <div class="contenido6 a1">Privacidad</div>
+            <div class="contenido7 a1">Estudiantes</div>
+        </div>
+    </footer>
+</body>
+
+</html>
